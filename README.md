@@ -72,4 +72,4 @@ Como salidas de esta batería de experimentos, en el directorio `Soluciones/` de
 
 * Para la ejecución del proyecto, solo se debe dirigir al directorio `Bench_Int/` y ejecutar el archivo `.pl` por medio del comando `./lanzador.pl`. 
 
-* Es muy importante que se ejecute este fichero dentro del directorio especificado, ya que este es el responsable de hacer uso del `Makefile`, el registro de los archivos `.csv` y el llamado a `Bench_Double/lanzador.pl` de los benchmarks de doubles. Es decir, con solo ejecutar el archivo especificado, ya se hace todo el experimento sin necesidad de cambiar ni ejecutar nada m
+* Es muy importante que se ejecute este fichero dentro del directorio especificado, ya que este es el responsable de hacer uso del `Makefile`, el registro de los archivos `.csv` y el llamado a `Bench_Double/lanzador.pl` de los benchmarks de doubles. Es decir, con solo ejecutar el archivo especificado, ya se hace todo el experimento sin necesidad de cambiar ni ejecutar nada más.
