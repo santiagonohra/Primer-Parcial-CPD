@@ -28,6 +28,8 @@ Procesamiento de Datos de Benchmarks
 
 # Overview
 
+[Instalación y ejecución](#-Ejecución)
+
 En este repositorio se encuentra una batería de experimentos de 4 benchmarks. Estos consisten en la multiplicación de matrices con valores enteros, enteros aleatorios, doubles y doubles aleatorios respectivamente. Los ficheros de los dos benchmarks con matrices de tipo double se encuentran en el directorio `Bench_Double/` y los dos benchmarks con matrices de tipo entero se encuentran en el directorio `Bench_Int/`.
 
 ## `Bench_Int/`
@@ -67,6 +69,14 @@ En este directorio, como se mencionó previamente, se encuentran los ficheros ne
 Como salidas de esta batería de experimentos, en el directorio `Soluciones/` dentro de cada benchmark, se obtienen 4 archivos `.csv` para cada nodo de cómputo que se esté evaluando, cada uno de estos representa los resultados del benchmark con enteros, enteros aleatorios, doubles y doubles aleatorios respectivamente, y todos tienen la misma cantidad de columnas, que repreentan la carga de cada medida. Por último, cada `.csv` contiene un total de 30 filas, es decir, para cada benchmark se hacen 30 repeticiones por carga/columna.
 
 # Ejecución
+
+```
+git clone https://github.com/santiagonohra/Primer-Parcial-CPD.git ~/Benchmarks
+
+cd Benchmarks/Bench_Int
+
+./lanzador.pl
+```
 
 * Para ejecutar esta batería de experimentos con benchmarks, primeramente se recomienda profundamente usar Linux, preferiblemente Ubuntu 22.04 LTS, ya que este sistema operativo fue el utilizado por todos los autores para desarrollar el proyecto. Segundamente, es necesario tener `GCC` en su versión `11.2.0`, `GNU Make` en su versión `4.3` y `perl` en su versión `5.34.0`. 
 
