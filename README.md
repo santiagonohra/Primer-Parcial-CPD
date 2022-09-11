@@ -28,7 +28,7 @@ Procesamiento de Datos de Benchmarks
 
 # Overview
 
-[Instalación y ejecución](#-Ejecución)
+[Instalación y ejecución](#ejecución)
 
 En este repositorio se encuentra una batería de experimentos de 4 benchmarks. Estos consisten en la multiplicación de matrices con valores enteros, enteros aleatorios, doubles y doubles aleatorios respectivamente. Los ficheros de los dos benchmarks con matrices de tipo double se encuentran en el directorio `Bench_Double/` y los dos benchmarks con matrices de tipo entero se encuentran en el directorio `Bench_Int/`.
 
